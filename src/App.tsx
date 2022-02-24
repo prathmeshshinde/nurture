@@ -3,7 +3,6 @@ import { Menu } from "./components/Menu";
 import { Section } from "./components/Section";
 import { Custom } from "./components/Custom";
 import { Api } from "./components/api";
-import { getData } from "./components/type";
 
 function App() {
   const [item] = Api();
