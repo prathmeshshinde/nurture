@@ -1,0 +1,513 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h3 {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  background-color: #3772ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* ------------------ Menu ------------------- */
+
+.section-menu {
+  flex: 1.5;
+}
+
+.head {
+  width: 15vw;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.name {
+  display: flex;
+  margin-right: 15px;
+}
+
+text {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.nav {
+  margin: 20px 10px 10px 20px;
+}
+
+.nav-section {
+  display: flex;
+}
+
+.nav-section img {
+  margin: 10px;
+}
+
+.nav-section p {
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #808191;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "poppins";
+}
+
+.menu-footer {
+  display: flex;
+  flex-direction: column;
+  margin: 150px 0px 0px 20px;
+}
+
+.section-value {
+  display: flex;
+}
+
+.value {
+  display: flex;
+  width: 70px;
+  justify-content: space-between;
+  background-color: #353945;
+  padding: 5px 7px 5px 7px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.section-value p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.buy {
+  background-color: #a3e3ff;
+  color: #3772ff;
+  font-weight: 500;
+  padding: 5px 7px 5px 7px;
+  border-radius: 10px;
+}
+
+.vector {
+  display: flex;
+}
+
+.vector-img {
+  margin: 15px 15px 15px 0px;
+}
+
+.toggle {
+  display: flex;
+  background-color: #353945;
+  margin: 15px;
+  border-radius: 10px;
+  width: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  background-color: #3772ff;
+  border-radius: 50%;
+}
+
+/* ------------------ Section ------------------- */
+
+.section-section {
+  flex: 6;
+}
+
+.getting {
+  display: block;
+}
+
+li {
+  color: #ffffff;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 30px;
+}
+
+.section-main p:after {
+  display: block;
+  height: 2px;
+  background-color: #2852b7;
+  content: " ";
+  margin: 0px auto 0;
+}
+
+.wallet {
+  display: flex;
+  background-color: #353945;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+.wallet-text {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px 10px 0px 10px;
+}
+
+.tier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 5px 0px 5px;
+  background-color: #a3e3ff;
+  font-size: 14px;
+  color: #3772ff;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.ad {
+  display: flex;
+  justify-content: space-between;
+  background-color: #a3e3ff;
+  height: auto;
+  margin: 20px 30px 20px 30px;
+
+  border-radius: 10px;
+}
+
+.lorem {
+  color: #000000;
+  padding: 15px 10px 10px 20px;
+}
+
+.lorem p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.tuts {
+  background-color: #ffffff;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 30px 0px 30px;
+  height: 30px;
+}
+
+.reward {
+  background-color: #191b20;
+  margin: 20px 30px;
+  padding: 20px;
+  border-radius: 20px;
+  font-family: "poppins";
+}
+
+.reward p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dollar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dollar p {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.button-custom {
+  background-color: #3772ff;
+  display: flex;
+}
+
+.button-custom p {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.crypto {
+  display: flex;
+}
+
+.crypto p {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #353945;
+  margin: 0px 10px 0px 0px;
+}
+
+.referral {
+  display: flex;
+  margin: 10px 15px;
+}
+
+.fee {
+  padding: 10px;
+  flex: 2;
+  background-color: #14161a;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.money {
+  display: flex;
+}
+
+.money-cont {
+  padding: 10px;
+}
+
+.money-cont p {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #808191;
+  margin: 10px;
+}
+
+.money p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.unity {
+  display: flex;
+  background-color: #242731;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.unity p {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.tab {
+  display: flex;
+  margin: 10px 30px;
+}
+
+.tab-text {
+  margin: 0px 20px 0px 0px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.tab-text:after {
+  display: block;
+  height: 2.5px;
+  background-color: #2852b7;
+  content: " ";
+  margin: 0px auto 0;
+}
+
+.tab-text-sec {
+  color: #808191;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+  border-radius: 10px;
+  color: #808191;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+table,
+td {
+  background-color: #0e1014;
+  border: none;
+  border-radius: 10px;
+}
+
+.heading {
+  border: 3px #000000 solid;
+  border-radius: 10px;
+}
+
+.user-table {
+  margin: 10px 30px;
+}
+
+.heading {
+  margin: 10px;
+}
+
+.col-bit {
+  display: flex;
+  justify-content: center;
+}
+
+.bitcoin {
+  margin: 10px;
+}
+
+.sec-put {
+  display: flex;
+}
+
+.ava {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #242731;
+  padding: 2px 6px;
+  border-radius: 10px;
+  margin: 5px 0px 0px 5px;
+}
+
+.avax {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  margin: 0px 0px 2px 2px;
+}
+
+.put {
+  color: #808191;
+  font-size: 16px;
+}
+
+.bnb-coin {
+  text-align: center;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+}
+
+.user p {
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.sec-scan {
+  text-align: center;
+}
+
+/* ------------------ Custom ------------------- */
+
+.section-custom {
+  flex: 2.5;
+}
+.dropdown {
+  display: flex;
+  margin-top: 5px;
+}
+
+.avalanche {
+  margin: 5px;
+}
+
+.user {
+  margin: 5px;
+}
+
+.custom-link {
+  display: inline-flex;
+}
+
+.path-img {
+  margin: 0px 10px 0px 10px;
+}
+
+.testnet {
+  margin: 30px 10px;
+}
+
+.testnet p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  margin: 10px 0px 10px 0px;
+  outline: none;
+  padding: 10px;
+  border: none;
+  height: 30px;
+  width: 310px;
+  background-color: #242731;
+  border-radius: 10px;
+}
+
+.custom-button {
+  display: flex;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.button-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.button-custom p {
+  margin: 0px 7px;
+  font-size: 16px;
+}
+
+.button-cancel {
+  background-color: #000000;
+  border: 1px solid #242731;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  width: 140px;
+}
+
+.button-cancel p {
+  color: #ffffff;
+  margin: 0px 7px;
+  font-size: 16px;
+}
+
+.menu-img {
+  margin: 0px 10px 0px 0px;
+  float: left;
+  bottom: 0;
+}
